@@ -1,0 +1,75 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply border-border;
+        scrollbar-color: var(--secondary) var(--tertiary);
+        scrollbar-width: none;
+    }
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        appearance: textfield;
+        -moz-appearance: textfield;
+    }
+
+    *:focus {
+        outline: none;
+    }
+}
+
+:root {
+    /* ThemeContext.tsx */
+    /* Wonder how many people will see this */
+    /* I should really comment more it's like a time capsule minus the whole exciting part */
+/*
+    --background: #171717;
+    --primary: #FAFAFA;
+    --secondary: #A3A3A3;
+    --tertiary: #262626;
+
+    --popover: var(--background);
+    --primary-foreground: var(--background);
+
+    --card: var(--primary);
+    --foreground: var(--primary);
+    --card-foreground: var(--primary);
+    --popover-foreground: var(--primary);
+    --secondary-foreground: var(--primary);
+    --accent-foreground: var(--primary);
+
+    --muted-foreground: var(--secondary);
+
+    --border: var(--tertiary);
+    --muted: var(--tertiary);
+    --accent: var(--tertiary);
+    --input: var(--tertiary);
+
+    --ring: 0 0% 83.1%;
+    --destructive: #BF1D1D;
+    --destructive-foreground: #FFFFFF;
+
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+
+    --radius: 0.5rem;
+}
+
+.next-error-h1 {
+    border-color: var(--secondary) !important;
+    transition: border-color 0.2s ease;
+} */
